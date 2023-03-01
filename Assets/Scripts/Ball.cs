@@ -5,6 +5,13 @@ using System;
 
 public class Ball : MonoBehaviour
 {
+    private AudioSource audioSource;
+    [SerializeField] List<AudioClip> collisionSounds;
+
+    void Awake()
+    {
+        audioSource = GameObject.Find("AudioManager").GetComponent<AudioSource>();
+    }
 
     void OnTriggerEnter(Collider collider)
     {
@@ -18,7 +25,26 @@ public class Ball : MonoBehaviour
             {
                 Debug.Log(e.Message);
             }
-            
         }
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log("Ball hit an obstacle");
+            try
+            {
+                int randomIndex = UnityEngine.Random.Range(0, collisionSounds.Count);
+                audioSource.PlayOneShot(collisionSounds[randomIndex]);
+            }
+            catch (ArgumentOutOfRangeException aoore)
+            {
+                Debug.Log(aoore.Message);
+            }
+
+
+        }
+    }
+
 }
