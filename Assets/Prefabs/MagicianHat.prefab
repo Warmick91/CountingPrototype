@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8695045771750253651}
   - component: {fileID: 1012481471254711587}
+  - component: {fileID: 4965478441645325727}
   m_Layer: 0
   m_Name: MagicHole
-  m_TagString: Untagged
+  m_TagString: Hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,8 +44,21 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8903391, y: 2.1167197, z: 3.8941338}
-  m_Center: {x: 0.028225984, y: 0.55835986, z: -0.054922875}
+  m_Size: {x: 0.8903391, y: 7.2617702, z: 3.894134}
+  m_Center: {x: 0.02822597, y: 35.894943, z: -0.054922953}
+--- !u!114 &4965478441645325727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510338281813656459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ac8d9e0f1d21044ab42710ee10b3ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CounterText: {fileID: 2639621300754642696, guid: 52d4a2414cafcbd4bbe63d3c1d68dd2d, type: 3}
 --- !u!1 &3600378542250036869
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +152,7 @@ MeshCollider:
   m_GameObject: {fileID: 3600378542250036869}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -166,7 +180,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4063817284458133463}
-  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 2.0685277, y: 1.154, z: -3.0596497}
   m_LocalScale: {x: 4.0052, y: 4.0052, z: 4.0052}
   m_ConstrainProportionsScale: 0
@@ -176,7 +190,7 @@ Transform:
   - {fileID: 8695045771750253651}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &4063817284655536139
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,7 +219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4063817284655536139}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
