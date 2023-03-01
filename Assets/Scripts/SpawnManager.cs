@@ -28,7 +28,7 @@ public class SpawnManager : MonoBehaviour
         if ((Input.GetKey(KeyCode.LeftShift) && Input.GetKeyDown(KeyCode.Space)) || (Input.GetKey(KeyCode.Space) && Input.GetKeyDown(KeyCode.LeftShift)))
         {
             Debug.Log("dupa");
-            InvokeRepeating("spawnBall", 0f, 0.5f);
+            InvokeRepeating("spawnBall", 0f, 0.05f);
         }
 
         //Check if either the space button OR shift button are released, then stop the repeated invocation of the spawn method
