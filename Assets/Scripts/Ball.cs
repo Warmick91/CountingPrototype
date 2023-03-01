@@ -7,6 +7,7 @@ public class Ball : MonoBehaviour
 {
     private AudioSource audioSource;
     [SerializeField] List<AudioClip> collisionSounds;
+    [SerializeField] AudioClip magicPoofSound;
 
     void Awake()
     {
@@ -20,6 +21,7 @@ public class Ball : MonoBehaviour
             try
             {
                 Destroy(gameObject);
+                audioSource.PlayOneShot(magicPoofSound);
             }
             catch (Exception e)
             {
@@ -42,7 +44,6 @@ public class Ball : MonoBehaviour
             {
                 Debug.Log(aoore.Message);
             }
-
 
         }
     }
