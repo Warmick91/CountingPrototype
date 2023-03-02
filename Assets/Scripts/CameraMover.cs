@@ -34,7 +34,6 @@ public class CameraMover : MonoBehaviour
             if (transform.rotation.eulerAngles.y >= rightCamBoundY)
             {
                 transform.Rotate(new Vector3(0, 1, 0) * -cameraSpeed * Time.deltaTime);
-                Debug.Log(transform.rotation.eulerAngles.y);
             }
             else rotateLeft = true;
         }

@@ -22,7 +22,6 @@ public class Obstacle : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ball"))
         {
-            Debug.Log("Ball hit an obstacle");
             try
             {
                 int randomIndex = UnityEngine.Random.Range(0, collisionSounds.Count);
