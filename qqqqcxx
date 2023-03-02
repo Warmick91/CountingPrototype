@@ -1,0 +1,73 @@
+*   [33mcommit 686650118de7065feed14993fa6489896f062368[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+[31m|[m[32m\[m  Merge: 7e280e8 32dc5f6
+[31m|[m [32m|[m Author: Krzysztof Mickiewicz <107584697+Warmick91@users.noreply.github.com>
+[31m|[m [32m|[m Date:   Thu Mar 2 12:13:12 2023 +0100
+[31m|[m [32m|[m 
+[31m|[m [32m|[m     Merge branch 'ParticleEffect'
+[31m|[m [32m|[m 
+[31m|[m * [33mcommit 32dc5f6be25b07a89932e1e45cfa35e0558e818e[m[33m ([m[1;31morigin/ParticleEffect[m[33m, [m[1;32mParticleEffect[m[33m)[m
+[31m|[m [32m|[m Author: Krzysztof Mickiewicz <107584697+Warmick91@users.noreply.github.com>
+[31m|[m [32m|[m Date:   Thu Mar 2 12:01:23 2023 +0100
+[31m|[m [32m|[m 
+[31m|[m [32m|[m     Particle effects now working. Addtionally changed the HandleVanishCollision to private and restructured the methods. Resized the hats.
+[31m|[m [32m|[m 
+* [32m|[m [33mcommit 7e280e83f78a2941b6df0c4d9f66c87458f21957[m
+[33m|[m[32m\[m[32m|[m Merge: b1a480f 4d39c0a
+[33m|[m [32m|[m Author: Krzysztof Mickiewicz <107584697+Warmick91@users.noreply.github.com>
+[33m|[m [32m|[m Date:   Thu Mar 2 12:12:20 2023 +0100
+[33m|[m [32m|[m 
+[33m|[m [32m|[m     Resolved main vs AudioEffects conflitcs
+[33m|[m [32m|[m 
+[33m|[m * [33mcommit 4d39c0a2c1de80ec1722ee2c6a6662734cca644e[m[33m ([m[1;31morigin/AudioEffects[m[33m, [m[1;32mAudioEffects[m[33m)[m
+[33m|[m [34m|[m Author: Krzysztof Mickiewicz <107584697+Warmick91@users.noreply.github.com>
+[33m|[m [34m|[m Date:   Wed Mar 1 23:43:50 2023 +0100
+[33m|[m [34m|[m 
+[33m|[m [34m|[m     The sound of magic disappearance added
+[33m|[m [34m|[m 
+[33m|[m * [33mcommit 0bdcb4473cdb4e134ae3903d1319ae5966877793[m
+[33m|[m [34m|[m Author: Krzysztof Mickiewicz <107584697+Warmick91@users.noreply.github.com>
+[33m|[m [34m|[m Date:   Wed Mar 1 23:08:34 2023 +0100
+[33m|[m [34m|[m 
+[33m|[m [34m|[m     AudioManager working, TODO: fix the audio delay
+[33m|[m [34m|[m 
+* [34m|[m [33mcommit b1a480f16ba94bfc73d8d9476c82c65e6ba9f88f[m[33m ([m[1;31morigin/SpawnManager[m[33m, [m[1;32mSpawnManager[m[33m)[m
+[34m|[m[34m/[m  Author: Krzysztof Mickiewicz <107584697+Warmick91@users.noreply.github.com>
+[34m|[m   Date:   Wed Mar 1 20:49:13 2023 +0100
+[34m|[m   
+[34m|[m       Holding keys causes balls to spawn faster now
+[34m|[m 
+* [33mcommit 7d6c86f20e4b7ff18bcc53a562ef5ffa2e577ded[m
+[34m|[m Author: Krzysztof Mickiewicz <107584697+Warmick91@users.noreply.github.com>
+[34m|[m Date:   Wed Mar 1 14:38:52 2023 +0100
+[34m|[m 
+[34m|[m     SpawnMethod now functional and can be invoked using buttons
+[34m|[m 
+* [33mcommit 9623a9ea0059a24d2e6d3ac653c58067b67f882e[m
+[34m|[m Author: Krzysztof Mickiewicz <107584697+Warmick91@users.noreply.github.com>
+[34m|[m Date:   Wed Mar 1 12:30:01 2023 +0100
+[34m|[m 
+[34m|[m     Working test
+[34m|[m 
+* [33mcommit 2155fda87d969cb29b9de92e6360b16675b7f489[m
+[34m|[m Author: Krzysztof Mickiewicz <107584697+Warmick91@users.noreply.github.com>
+[34m|[m Date:   Wed Mar 1 12:15:15 2023 +0100
+[34m|[m 
+[34m|[m     Ball script added, counter text fixed
+[34m|[m 
+* [33mcommit e8b17b15e40314e7e323f983276c9ec47ccb6878[m
+[34m|[m Author: Krzysztof Mickiewicz <107584697+Warmick91@users.noreply.github.com>
+[34m|[m Date:   Tue Feb 28 16:11:56 2023 +0100
+[34m|[m 
+[34m|[m     Obstacles, colors added
+[34m|[m 
+* [33mcommit 1f57139188713e0dcd7c656db1d38331ed4ab5b1[m
+[34m|[m Author: Krzysztof Mickiewicz <107584697+Warmick91@users.noreply.github.com>
+[34m|[m Date:   Tue Feb 28 15:55:17 2023 +0100
+[34m|[m 
+[34m|[m     Hats added
+[34m|[m 
+* [33mcommit b430f726274249e3d9664dcbf7ec9780bcba7c7d[m
+  Author: Krzysztof Mickiewicz <107584697+Warmick91@users.noreply.github.com>
+  Date:   Tue Feb 28 15:03:14 2023 +0100
+  
+      First commit
